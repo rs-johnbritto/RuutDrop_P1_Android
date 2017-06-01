@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#DCDCDC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boxes List"
+        android:padding="10dp"
+        android:id="@+id/title"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/finishedLoading"
+        android:layout_below="@+id/title"
+        >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dots_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dots_margin_bottom"
+        android:gravity="center"
+        android:orientation="horizontal"></LinearLayout>
+    </RelativeLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:text="Finished Loading"
+        android:id="@+id/finishedLoading"
+        android:background="@color/colorPrimary"
+        />
+    <ImageView
+        android:id="@+id/callRuutdrop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/support"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

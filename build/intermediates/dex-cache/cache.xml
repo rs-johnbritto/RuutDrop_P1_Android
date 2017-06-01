@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_e70e2ee46148216f5f11f157a6d31a0a017a2399.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_d864fed6d80b487f02c45ac79474f8b2d20b9720.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_6eb07200616f0a41ed27d3166385654573297db2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_7de1e2080bd09c1424c74c2f215545797fe52f40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_8587bba85833c2b8c8831412aa8323c5d31bed80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_6c13c42f13860e3d5b340d6eb3b01573c79eabd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_cb7ba448de1fc1eace6272f2bf181d7d34b20339.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.2.13/bcb160fb9cb637c7908e77d473cdbdabdd80e2b9/aws-android-sdk-core-2.2.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bcb160fb9cb637c7908e77d473cdbdabdd80e2b9">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/aws-android-sdk-core-2.2.13_c2758b57e3f0c273f8524b881171a3ef9a773b73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_48a83ac4a8f85970e4bff0f7b0e2d90c31bc2b35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.github.gcacace/signature-pad/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e38ceffed1fb752b3ab4f4b3678697ff1924c57">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.github.gcacace-signature-pad-1.2.0_2a9d685e3ef40cdb6aadefc1c23a6c322b22f66f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_2a369c2a5f230e134a267265cdf42180a52ab84e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/commons-codec-1.10_ce4872e80eba2cc282b3568a40f7b2cad47fe255.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_306d8cbaaac881223a1fc5f778609031e718588e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.mcxiaoke.volley-library-aar-1.0.0_463b6f3c8a7b0abc2b5afcb535590814a4dd81f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/gson-2.8.0_323c0f0b2b28836e03ff4ec289091504ce09c256.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognito/2.2.13/251ebccacaad6a5036952dc6b259a2aabba38356/aws-android-sdk-cognito-2.2.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="251ebccacaad6a5036952dc6b259a2aabba38356">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/aws-android-sdk-cognito-2.2.13_f7f20a8b236e90c13af2ac31b60e5fc45b0c77ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_5b88c71366d8b1844ec9cf133ca23f705c5ec8be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_5247803de312f475d870221d70fb997b74870f6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0abbf77d66aff8712353727a74eb81c7a2e3b4a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-s3/2.2.13/1b15445de91b048a6b74506dd8261daf74decdcd/aws-android-sdk-s3-2.2.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1b15445de91b048a6b74506dd8261daf74decdcd">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/aws-android-sdk-s3-2.2.13_47c4be20879154cc1016e83adb0fbb1e67b3c2e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.rmtheis/tess-two/6.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="27377d2be96cab8211f228b424f221f34a0fa5bc">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.rmtheis-tess-two-6.0.4_4796a04e092147400ed050c6339bfce04d56100e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_89fb1550763535a43d38869a5aa598bc469d6f41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_947f31ff32ad70587c175e10e8d78b45a92fdf81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/exploded-aar/HERE-sdk/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0d75239ba665b3fdec0e46a5e6535be4d378b0f0">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-HERE-sdk_51bc889f0cf53ba85aba9098809d473df958e501.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/karthik/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-ddb/2.2.13/c5e29c073cc8539c409c6ef39201f979031de0c1/aws-android-sdk-ddb-2.2.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c5e29c073cc8539c409c6ef39201f979031de0c1">
+        <dex dex="/Users/karthik/Desktop/RuutDropDemo/app/build/intermediates/pre-dexed/debug/aws-android-sdk-ddb-2.2.13_3a251287ebe4dda06aff87d565579c15a632f429.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo1"
+        android:id="@+id/logo"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Please enter your registered email to start the passsword reset process"
+        android:textColor="#222"
+        android:id="@+id/password"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="#A9A9A9"
+        android:layout_below="@+id/password"
+        android:padding="8dp"
+        android:background="@drawable/edittextbg"
+        android:id="@+id/emailid"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send OTP"
+        android:textColor="#FFFFFF"
+        android:singleLine="true"
+        android:background="#00C5DE"
+        android:id="@+id/sendotp"
+        android:layout_below="@+id/emailid"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

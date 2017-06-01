@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+    defaultConfig {
+        applicationId "com.ruutdrop.ruutdropapp"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    repositories{
+        mavenCentral()
+    }
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'armeabi-v7a'
+            universalApk false
+        }
+    }
+}
+repositories{
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    compile(name:'HERE-sdk', ext:'aar')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.rmtheis:tess-two:6.0.4'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.github.gcacace:signature-pad:1.2.0'
+    compile 'com.amazonaws:aws-android-sdk-core:2.2.13'
+    compile 'com.amazonaws:aws-android-sdk-cognito:2.2.13'
+    compile 'com.amazonaws:aws-android-sdk-s3:2.2.13'
+    compile 'com.amazonaws:aws-android-sdk-ddb:2.2.13'
+    compile 'commons-codec:commons-codec:1.10'
+
+}

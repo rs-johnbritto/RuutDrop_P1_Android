@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAAAAA">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" />
+    <View
+        android:id="@+id/cropView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:background="#FFFF00"
+        android:layout_above="@+id/cropView"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:background="#FFFF00"
+        android:layout_below="@+id/cropView"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:background="#FFFF00"
+        />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#FFFF00"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/cancel"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonbg3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Take Picture"
+        android:id="@+id/takepicture"
+        android:layout_above="@+id/cancel"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonbg1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Position the addres label \n inside the camera below"
+        android:textColor="#1E3A7C"
+        android:textStyle="bold"
+        android:layout_above="@+id/surfaceView"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="16sp"/>
+</RelativeLayout>

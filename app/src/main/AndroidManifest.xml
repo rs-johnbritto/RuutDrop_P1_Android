@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ruutdrop.ruutdropapp"
+>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"
+        android:maxSdkVersion="22" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:name="android.hardware.camera2.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera2.full" />
+    <uses-feature android:name="android.hardware.camera2" />
+
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activities.WelcomeActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activities.LetsgoActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activities.SigninActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activities.RegisterActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activities.CameraActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="com.pyramidions.ruutdropdemo.CAMERAACTIVITY" >
+                </action>
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".activities.DeliveryActivity"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="com.pyramidions.ruutdropdemo.DELIVERYACTIVITY" >
+            </action>
+        </intent-filter>
+        </activity>
+        <meta-data android:name="com.here.android.maps.appid"
+            android:value="9z5KYNSqYNnms1lL9OGh"/>
+        <meta-data android:name="com.here.android.maps.apptoken"
+            android:value="micmda77p0nSfpmK7cphlw"/>
+        <meta-data android:name="com.here.android.maps.license.key"
+            android:value="jlUVclICZDLxBhitgLU8Voe04nQYmg6izOThz8nQ0lZFXBFyjaDsggxZbXlaNFJY68xofhtIGldRlOZDFBJvAlqASI4fK7TfBLE76QBVebxwhWW6/G9sba0OE+Dr+xRy+bot4o+GGr4VQS9bOjW8WyrBnCxZupCToJ0k5ZiWGw3Tza82hu21UIeJYGAyLE5i0X+DVOc0sk2QuGR3vEYCfSaobU2WQJTyIegAoS9iaD4mGLUZezmZPz5ouZAqc+9oH7VVIv6vsGK6pZ4YiT3Qq+5WEvx3UV09RBmJ7+CJnjrwDWpUhMjCzNnpg2Nk7y2PerIcw2tIk9YaBoe2HUwerB1CJFUMyFtagt9kswISFPEnM34FtGK79pvWqKMyS8JN4TCYGUzZwDUVry8zV7y1vyew6OBBHk8Xvbcjzg/JFuyrp0wU2iBiyY8Em3ESuDjzqjB71J8WhxGdOF/IuyIIf6+rxplmEHqMRSAXF+b+dDFtAHKlD986EXBQvuEH1bYi3X11xwDFLWnh4oYCVYdLt7CdeGFCVKCYtfiToiOm7h8RB5kDselcIjc39q//KuIabPp2iz7HK5gKp793mQBLszDl5wg6nSk50Pkyx/bbKKVCN19iCmdg3NPxuAM0dnCPLiLhyNL7npABQmntjrJfdHwIwbk/7lTBK7yR0VYmJfs="/>
+        <service android:exported="true" android:label="HereMapService" android:name="com.here.android.mpa.service.MapService" android:process="global.Here.Map.Service.v2">
+            <intent-filter>
+                <action android:name="com.here.android.mpa.service.MapService">
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.here.services.internal.LocationService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote">
+        </service>
+        <activity android:name=".activities.ImageCaptureActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.pyramidions.ruutdropdemo.IMAGECAPTUREACTIVITY" >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ListBoxesActivity"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="com.pyramidions.ruutdropdemo.LISTBOXESACTIVITY" >
+            </action>
+        </intent-filter>
+        </activity>
+        <activity android:name=".activities.VerifyDeliveryActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.pyramidions.ruutdropdemo.VERIFYDELIVERYACTIVITY" >
+                </action>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ChangePasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.SendOTPActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.VerifyOTPActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.BoxesComputingActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

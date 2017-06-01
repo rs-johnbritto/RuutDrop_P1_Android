@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/computing"
+        android:layout_gravity="center"
+        android:id="@+id/computingimage"
+        />
+    <TextView
+        android:id="@+id/pleasewait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:layout_below="@+id/computingimage"
+        android:text="Please wait while the boxes are being sorted"
+        />
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:background="@drawable/logout"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:layout_below="@+id/pleasewait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="You will automatically be redirected to next screen once sorting is completed."
+        />
+    <ImageView
+        android:id="@+id/callRuutdrop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/support"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
